@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;800&display=swap');
+
+
+body{color:black;}
+:root{
+    font-family: 'Fira Sans', sans-serif;
+    --colorprincipal:#282727;
+    --colorPrincipalClaro: #b49f9b;
+    --colorPrincipalOscuro: #c15d4b;
+    --colorClaro: #f1f1f1 ;
+    --colorRojo: hsl(340, 100%, 55%);
+    --colorBlanco: #fff;
+    --colorBeige: #cec3c1;
+}
+
+
+h2{
+    font-family: 'Monoton', cursive;
+}
+
+.btn{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bg-colorPrincipal{
+    background-color: var(--colorClaro);
+}
+
+.bg-colorPrincipalFondo{
+    background-color: var(--colorRojo);
+    color: var(--colorBlanco);
+    text-align: center;
+}
+
+.text-colorPrincipal{
+    color: var(--colorprincipal)
+}
+
+.text-colorPrincipalDestacado{
+    color: var(--colorPrincipalOscuro)
+}
+
+.btn-exterior-colorPrincipal{
+    border-color: var(--colorPrincipalOscuro);
+    color: var(--colorPrincipalOscuro);
+}
+
+.btn-exterior-colorPrincipal:hover{
+    background-color: var(--colorPrincipalOscuro);
+    color: var(--colorBlanco);
+    
+}
+
+.btn-Prefooter-colorPrincipal{
+    color: var(--colorPrincipalOscuro);
+}
+
+.btn-Prefooter-colorPrincipal:hover{
+    background-color: var(--colorPrincipalOscuro);
+    color: var(--colorBlanco);
+}
+
+.nav-link{
+    color: var(--colorprincipal)
+} 
+
+.nav-link:hover{
+    color: var(--colorPrincipalOscuro)
+} 
+
+.cardBotones{
+    flex: 1;
+    background-color: var(--colorBlanco);
+    transition: all .2s ease-out;
+    padding: 10px 10px;
+}
+.cardBotones:hover{
+    box-shadow: 5px 5px 5px 5px  rgba(40, 44, 52, 0.1);
+    padding: 5px 5px 5px;
+}
+
+.cardBotones .imgCard img{
+    transition: all .3s ease-out;
+}
+
+.bg-Footer{
+    background-color: var(--colorPrincipalClaro)
+}
+
+.nav-link-body{
+    color: var(--colorprincipal);
+    text-decoration: none;
+}
+
+.nav-link-body:hover{
+    color: var(--colorBlanco);
+}
+
+.bg-link-body{
+    background-color: var(--colorPrincipalClaro);
+}
+
+.bg-slider{
+    background-color: var(--colorBeige);
+}
